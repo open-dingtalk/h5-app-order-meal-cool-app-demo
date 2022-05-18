@@ -398,7 +398,7 @@ export class DemoService {
       cardTemplateId: 'StandardCard',
       openConversationId: request.openConversationId,
       cardBizId: cardInfo.traceId,
-      robotCode: 'dingehqxoqour9kgyngk',
+      robotCode: this.demo.appKey,
       cardData: JSON.stringify(this.templateService.genCardData(cardInfo)),
       callbackUrl: this.demo.callbackUrl,
     };
