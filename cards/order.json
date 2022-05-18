@@ -1,0 +1,193 @@
+{
+    "config": {
+        "autoLayout": true,
+        "enableForward": false
+    },
+    "header": {
+        "logo": "@lALPDrz7jNRJdJE4OA",
+        "title": {
+            "color": "common_green1_color",
+            "text": "订餐",
+            "type": "text"
+        }
+    },
+    "contents": [
+        {
+            "image": "@lALPDfYH0aWc_a3NAljNAyA",
+            "id": "image_1651656851296",
+            "type": "image",
+            "ratio": "16:9"
+        },
+        {
+            "id": "section_1651753061097",
+            "type": "section",
+            "fields": {
+                "list": [
+                    {
+                        "text": "5月9号的订餐开始啦",
+                        "id": "text_1651753061097",
+                        "type": "text"
+                    }
+                ]
+            }
+        },
+        {
+            "text": {
+                "items": [
+                    {
+                        "data": {
+                            "text": "套餐内容："
+                        },
+                        "style": {
+                            "darkColor": "#FFFFFF",
+                            "size": 15,
+                            "lightColor": "#171A1D"
+                        },
+                        "type": "text"
+                    },
+                    {
+                        "data": {
+                            "text": "西兰花、胡萝卜、鸡蛋、荞麦面、玉米、莴笋、紫薯"
+                        },
+                        "style": {
+                            "darkColor": "#FFFFFF",
+                            "size": 15,
+                            "lightColor": "#171A1D",
+                            "italic": 1
+                        },
+                        "type": "text"
+                    }
+                ],
+                "version": "1.1"
+            },
+            "id": "markdown_1651656851296",
+            "type": "markdown"
+        },
+        {
+            "text": {
+                "items": [
+                    {
+                        "data": {
+                            "text": "订餐截止时间2022-05-10 17:00"
+                        },
+                        "style": {
+                            "darkColor": "#8A8A8B",
+                            "size": 15,
+                            "lightColor": "#A2A3A4"
+                        },
+                        "type": "text"
+                    }
+                ],
+                "version": "1.1"
+            },
+            "id": "markdown_1651656851411",
+            "type": "markdown"
+        },
+        {
+            "id": "divider_1651656851297",
+            "type": "divider"
+        },
+        {
+            "text": {
+                "items": [
+                    {
+                        "data": {
+                            "text": "健康餐已预定：2/2 份"
+                        },
+                        "style": {
+                            "darkColor": "#FFFFFF",
+                            "size": 15,
+                            "lightColor": "#171A1D",
+                            "bold": 1
+                        },
+                        "type": "text"
+                    }
+                ],
+                "version": "1.1"
+            },
+            "id": "markdown_1651656851297",
+            "type": "markdown"
+        },
+        {
+            "icon": "@lALPDsekDPtyqYrMyMzI",
+            "text": {
+                "items": [
+                    {
+                        "data": {
+                            "text": "云x 🥩 牛肉套餐"
+                        },
+                        "style": {
+                            "darkColor": "#8A8A8B",
+                            "size": 15,
+                            "lightColor": "#A2A3A4"
+                        },
+                        "type": "text"
+                    }
+                ],
+                "version": "1.1"
+            },
+            "id": "markdown_1651656851311",
+            "type": "markdown"
+        },
+        {
+            "icon": "https://static-legacy.dingtalk.com/media/lADPBF8a6hdd_RjNCHDNCHA_2160_2160.jpg",
+            "text": {
+                "items": [
+                    {
+                        "data": {
+                            "text": "肖x 🐔 鸡肉套餐"
+                        },
+                        "style": {
+                            "darkColor": "#8A8A8B",
+                            "size": 15,
+                            "lightColor": "#A2A3A4"
+                        },
+                        "type": "text"
+                    }
+                ],
+                "version": "1.1"
+            },
+            "id": "markdown_1651656851311",
+            "type": "markdown"
+        },
+        {
+            "id": "divider_1652081918795",
+            "type": "divider"
+        },
+        {
+            "text": "您对这次的订餐满意吗？",
+            "id": "text_1652081920011",
+            "type": "text"
+        },
+        {
+            "id": "action_1652081961181",
+            "type": "action",
+            "actions": [
+                {
+                    "actionType": "request",
+                    "icon": "@lALPDtJMiOlXqC3MyMzI",
+                    "label": {
+                        "text": "满意（1）",
+                        "id": "text_1652081961181",
+                        "type": "text"
+                    },
+                    "id": "button_1652081961181",
+                    "type": "button",
+                    "status": "primary"
+                },
+                {
+                    "actionType": "request",
+                    "icon": "@lALPDtJMiOmduYLMyMzI",
+                    "label": {
+                        "text": "不满意（0）",
+                        "id": "text_1652081961231",
+                        "type": "text"
+                    },
+                    "id": "button_1652081961190",
+                    "type": "button",
+                    "status": "warning"
+                }
+            ]
+        }
+    ]
+}

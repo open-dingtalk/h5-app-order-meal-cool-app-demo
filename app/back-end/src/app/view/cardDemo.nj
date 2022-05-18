@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>卡片搭建</title>
+  {% if icon %}
+    <link rel="icon" href="{{icon}}" type="image/x-icon">
+  {% endif %}
+  <script>
+    document.write('<link rel="stylesheet" href="//' + '{{frontEndHost}}/build/index.css" />')
+  </script>
+</head>
+<body>
+  <div id="dingapp"></div>
+    <script>
+      window.publicPath = `//{{frontEndHost}}/`;
+      document.write('<scrip'+'t src="//' + '{{frontEndHost}}' + '/build/index.js" crossorigin></s'+'cript>')
+      document.write('<scrip'+'t src="//' + '{{frontEndHost}}' + '/build/vendor.js" crossorigin></s'+'cript>')
+    </script>
+</body>
+</html>

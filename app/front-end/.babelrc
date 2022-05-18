@@ -1,0 +1,35 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage", // alternative mode: "entry"
+          "corejs": 3, // default would be 2
+          "targets": "> 0.25%, not dead"
+        }
+      ],
+      "@babel/preset-typescript",
+      "@babel/react"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "dingtalk-design-desktop",
+          "libraryDirectory": "es",
+          "style": true
+        },
+        "dingtalk-design-desktop"
+      ],
+      [
+        "import",
+        {
+          "libraryName": "lodash",
+          "libraryDirectory": "",
+          "camel2DashComponentName": false  // default: true
+        }
+      ],
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-syntax-object-rest-spread"
+    ]
+  }

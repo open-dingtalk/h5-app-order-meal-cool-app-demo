@@ -1,0 +1,42 @@
+{
+  "name": "card-demo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@midwayjs/bootstrap": "^2.3.0",
+    "@midwayjs/core": "^2.3.0",
+    "@midwayjs/decorator": "^2.3.0",
+    "@midwayjs/web": "^2.3.0",
+    "axios": "^0.27.2",
+    "egg": "^2.0.0",
+    "egg-view-nunjucks": "^2.3.0"
+  },
+  "devDependencies": {
+    "@midwayjs/cli": "^1.0.0",
+    "@midwayjs/egg-ts-helper": "^1.0.1",
+    "@midwayjs/luckyeye": "^1.0.0",
+    "@midwayjs/mock": "^2.3.0",
+    "@types/node": "14",
+    "cross-env": "^6.0.0",
+    "mwts": "^1.0.5",
+    "typescript": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env ets && cross-env NODE_ENV=local midway-bin dev --ts --port=7002",
+    "lint": "mwts check",
+    "lint:fix": "mwts fix",
+    "build": "midway-bin build -c",
+    "check": "luckyeye"
+  },
+  "midway-bin-clean": [
+    ".vscode/.tsbuildinfo",
+    "dist"
+  ],
+  "midway-luckyeye": {
+    "packages": [
+      "midway_v2"
+    ]
+  },
+  "author": "",
+  "license": "MIT"
+}

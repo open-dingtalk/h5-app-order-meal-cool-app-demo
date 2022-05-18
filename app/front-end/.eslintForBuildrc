@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "es5"
+  ],
+  "extends": [
+    "plugin:es5/no-es2015"
+  ],
+  "rules": {
+    "es5/no-es6-methods": 0,
+    "es5/no-es6-static-methods": 0,
+    "es5/no-typeof-symbol": 0
+  }
+}

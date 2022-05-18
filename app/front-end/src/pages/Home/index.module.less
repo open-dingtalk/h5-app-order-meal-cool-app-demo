@@ -1,0 +1,42 @@
+@import "~dingtalk-theme/dingtalk-x/mob.less";
+
+.root {
+  height        : 100vh;
+  padding-bottom: 56px;
+  background    : white;
+  background    : @common_fg_z1_color;
+}
+.title {
+  padding: 20px 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sendOut {
+  margin-left: 4px;
+}
+.form {
+  width  : 100%;
+  padding: 20px;
+}
+
+.footer {
+  position        : fixed;
+  bottom          : 0;
+  left            : 0;
+  right           : 0;
+  padding         : 10px 20px 0 20px;
+  height          : 60px;
+  z-index         : 10;
+  border-top      : 1px solid @common_line_light_color;
+  background-color: @common_fg_z1_color;
+
+  > button {
+    width: 100%;
+  }
+}
+
+.footerGhost {
+  width : 100%;
+  height: 70px;
+}
