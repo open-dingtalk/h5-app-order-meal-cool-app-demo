@@ -119,15 +119,15 @@ dingtalk://dingtalkclient/action/im_open_hybrid_panel?panelHeight=percent60&hybr
 
 机器人和群入口：
 
-![](https://img.alicdn.com/imgextra/i4/O1CN01qwn2U01iHIIWZArfy_!!6000000004387-0-tps-810-1800.jpg)
+![](https://img.alicdn.com/imgextra/i4/O1CN01FTQMNP1o2XE85JeO3_!!6000000005167-2-tps-360-800.png)
 
 订餐页面：
 
-![](https://img.alicdn.com/imgextra/i4/O1CN01GbjDUM1gKNjaxuknK_!!6000000004123-0-tps-1080-2400.jpg)
+![](https://img.alicdn.com/imgextra/i2/O1CN013Exlml1YyfePQmuEh_!!6000000003128-2-tps-360-800.png)
 
 订餐交互卡片：
 
-![](https://img.alicdn.com/imgextra/i4/O1CN01n3nD0x2AAhqGLwtLv_!!6000000008163-0-tps-810-1800.jpg)
+![](https://img.alicdn.com/imgextra/i3/O1CN01JgxbWy28G5GGsupgy_!!6000000007904-2-tps-360-800.png)
 
 
 ## 参考文档
